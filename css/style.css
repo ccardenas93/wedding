@@ -47,22 +47,22 @@ p, ul, ol {
 
 h1, h2, h3, h4, h5, h6 {
   color: #5a5a5a;
-  font-family: Pinyon Script, cursive;
+  font-family: 'Pinyon Script', cursive;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
 
 /* New font styles for .fh5co-hero */
 .fh5co-hero h1 {
-    font-family: Pinyon Script, cursive; /* Apply Bad Script font to h1 */
+    font-family: 'Pinyon Script', cursive;
 }
 
 .fh5co-hero h2 {
-    font-family: Pinyon Script, cursive; /* Apply Bad Script font to h2 */
+    font-family: 'Pinyon Script', cursive;
 }
 
 .fh5co-hero p {
-    font-family: Open Sans, cursive; /* Apply Bad Script font to p */
+    font-family: 'Open Sans', cursive;
 }
 
 /* Existing CSS rules */
@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid #fff;
     padding: 5px 0px;
 }
+
 figure {
   margin-bottom: 2em;
 }
@@ -594,7 +595,8 @@ figure {
 }
 
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
-  color: #F69D9D !important;
+  color: #F69D9D !important
+
 }
 
 #fh5co-couple,
@@ -602,13 +604,7 @@ figure {
 #fh5co-groom-bride,
 #fh5co-blog-section,
 #fh5co-started,
-#fh5co-when-where{
-  margin-top: 0; /* Reduce the top margin */
-  padding-top: 0; /* Reduce the top padding */
-},
-#fh5co-guest,
-#fh5co-gallery,
-.fh5co-content-section {
+#fh5co-when-where {
   padding: 7em 0;
 }
 
@@ -618,10 +614,7 @@ figure {
   #fh5co-groom-bride,
   #fh5co-blog-section,
   #fh5co-started,
-  #fh5co-when-where,
-  #fh5co-guest,
-  #fh5co-gallery,
-  .fh5co-content-section {
+  #fh5co-when-where {
     padding: 4em 0;
   }
 }
@@ -784,12 +777,10 @@ figure {
 }
 
 #fh5co-started .form-control:-moz-placeholder {
-  /* Firefox 18- */
   color: #fff;
 }
 
 #fh5co-started .form-control::-moz-placeholder {
-  /* Firefox 19+ */
   color: #fff;
 }
 
