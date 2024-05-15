@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-hero p {
-    font-family: Pinyon Script, cursive; /* Apply Bad Script font to p */
+    font-family: Open Sans, cursive; /* Apply Bad Script font to p */
 }
 
 /* Existing CSS rules */
@@ -247,7 +247,7 @@ figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-      height: auto; /* Adjust the height for mobile devices */
+      height: inherit; /* Adjust the height for mobile devices */
       background-position: center center; /* Ensure the image is centered on mobile */
   }
 }
@@ -335,7 +335,7 @@ figure {
 }
 
 .sf-menu a:hover, .sf-menu a:focus {
-  color: #F69D9D !important;
+  color: #eedfdf !important;
 }
 
 .sf-menu li.active a:hover, .sf-menu li.active a:focus {
@@ -602,7 +602,10 @@ figure {
 #fh5co-groom-bride,
 #fh5co-blog-section,
 #fh5co-started,
-#fh5co-when-where,
+#fh5co-when-where{
+  margin-top: 0; /* Reduce the top margin */
+  padding-top: 0; /* Reduce the top padding */
+},
 #fh5co-guest,
 #fh5co-gallery,
 .fh5co-content-section {
