@@ -47,11 +47,79 @@ p, ul, ol {
 
 h1, h2, h3, h4, h5, h6 {
   color: #5a5a5a;
-  font-family: "Montez", cursive;
+  font-family: Pinyon Script, cursive;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
 
+/* New font styles for .fh5co-hero */
+.fh5co-hero h1 {
+    font-family: Pinyon Script, cursive; /* Apply Bad Script font to h1 */
+}
+
+.fh5co-hero h2 {
+    font-family: Pinyon Script, cursive; /* Apply Bad Script font to h2 */
+}
+
+.fh5co-hero p {
+    font-family: Pinyon Script, cursive; /* Apply Bad Script font to p */
+}
+
+/* Existing CSS rules */
+.fh5co-hero {
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .fh5co-hero {
+        height: 700px;
+    }
+}
+
+.fh5co-cover .display-t {
+    display: table;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .fh5co-cover .display-t {
+        height: 600px;
+    }
+}
+
+.fh5co-cover .display-tc {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fh5co-cover .display-tc h1 {
+    color: #fff;
+}
+
+.fh5co-cover .display-tc h2 {
+    color: #fff;
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 300 !important;
+}
+
+.fh5co-cover .display-tc p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 7px;
+}
+
+.fh5co-cover .display-tc p span {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 5px 0px;
+}
 figure {
   margin-bottom: 2em;
 }
