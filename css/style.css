@@ -247,8 +247,8 @@ figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: inherit;
-    padding: 3em 0;
+      height: auto; /* Adjust the height for mobile devices */
+      background-position: center center; /* Ensure the image is centered on mobile */
   }
 }
 
