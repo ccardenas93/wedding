@@ -13,7 +13,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px;
   background: #fff;
@@ -60,9 +60,11 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-hero h2 {
     font-family: 'Pinyon Script', cursive;
 }
-
+.custom-icon {
+  color: #1b1b1b; /* Replace with your desired color */
+}
 .fh5co-hero p {
-    font-family: 'Open Sans', cursive;
+    font-family: 'Poppins', cursive;
 }
 
 /* Existing CSS rules */
@@ -660,7 +662,7 @@ figure {
 #fh5co-couple .amp-center {
   font-size: 60px;
   margin-top: 100%;
-  color: #f69d9d;
+  color: #131313;
 }
 
 @media screen and (max-width: 768px) {
@@ -688,7 +690,7 @@ figure {
 #fh5co-countdown .countdown small {
   display: block;
   font-size: 16px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
 }
 
 .couple-wrap {
@@ -836,7 +838,7 @@ figure {
 }
 
 .groom-men h3 {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -927,7 +929,7 @@ figure {
   margin-bottom: 20px;
   font-weight: 300;
   line-height: 1.5;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Poppins, Arial, sans-serif;
 }
 
 .fh5co-blog .blog-text h3 a {
