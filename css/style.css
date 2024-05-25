@@ -221,12 +221,16 @@ figure {
   position: relative;
   height: 800px;
   width: 100%;
+  background-position: center center; /* Ensure images stay centered */
+  background-size: cover; /* Ensure images cover the container */
 }
 
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
     height: 700px;
+    background-position: center center; /* Ensure images stay centered */
+    background-size: cover; /* Ensure images cover the container */
   }
 }
 
@@ -307,7 +311,19 @@ figure {
   border-bottom: 2px solid #fff;
   padding: 5px 0px;
 }
+.fh5co-cover[data-stellar-background-ratio="0.5"] {
+  background-image: url(images/cover_bg_1.jpg);
+  background-position: center center; /* Ensure image stays centered */
+  background-size: cover; /* Ensure image covers the container */
+  background-repeat: no-repeat; /* Prevent image repetition */
+}
 
+#fh5co-started {
+  background-image: url(images/cover_bg_2.jpg);
+  background-position: center center; /* Ensure image stays centered */
+  background-size: cover; /* Ensure image covers the container */
+  background-repeat: no-repeat; /* Prevent image repetition */
+}
 /* Superfish Override Menu */
 .sf-menu {
   margin: 7px 0 0 0 !important;
