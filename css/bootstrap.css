@@ -1427,7 +1427,7 @@ img {
 }
 
 .img-rounded {
-  border-radius: 6px;
+  border-radius: 2px;
 }
 
 .img-thumbnail {
@@ -1445,7 +1445,7 @@ img {
 }
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 hr {
@@ -3269,6 +3269,12 @@ select[multiple].input-sm,
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
+}
+.img-full {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0; /* Ensure no border radius is applied */
 }
 
 .form-group-sm select.form-control {
