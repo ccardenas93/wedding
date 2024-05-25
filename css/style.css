@@ -1010,10 +1010,10 @@ figure {
 }
 
 .btn.btn-primary {
-  background: #000000;
-  color: #fff;
-  border: none !important;
-  border: 2px solid transparent !important;
+    background-color: #f00c0c;
+    color: #d3d3d3;
+    width: auto;
+    display: inline-block;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
@@ -1235,7 +1235,7 @@ figure {
   .fh5co-nav-toggle {
     display: block;
     top: 0px;
-    margin-top: 2em;
+    margin-top: 1em;
   }
 }
 
