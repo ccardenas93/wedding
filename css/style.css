@@ -870,7 +870,12 @@ figure {
   z-index: 1;
   margin-bottom: 25px;
 }
-
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; /* if you want to maintain the circular shape */
+}
 .gallery .gallery-img img {
   position: relative;
   max-width: 100%;
